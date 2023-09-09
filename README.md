@@ -15,7 +15,7 @@ Our Transport Converter is a split TCP connection proxy which takes an incoming 
 --------------	       |       ----------------------- TCP
 | WiFi iface | ------->|
 --------------  MPTCP 
-			   subflow
+              subflow
 ```
 
 ## What is libconvert?
