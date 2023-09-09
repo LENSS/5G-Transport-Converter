@@ -10,9 +10,9 @@ Our Transport Converter is a split TCP connection proxy which takes an incoming 
                  MPTCP
 --------------  subflow
 | 3GPP iface | ------->|     (Terminate MPTCP) -> (TCP)
---------------		   |	   -----------------------
-					   |------>| Transport Converter |--->{Internet Server}			
---------------		   |	   ----------------------- TCP
+--------------	       |       -----------------------
+                       |------>| Transport Converter  |--->{Internet Server}			
+--------------	       |       ----------------------- TCP
 | WiFi iface | ------->|
 --------------  MPTCP 
 			   subflow
