@@ -29,7 +29,7 @@ cd 5G-Transport-Converter
 ```
 2. Build libconvert client.
 ```
-make libconvert.so
+make lib_convert.so
 ```
 3. Setup the Transport Converter.
 ```
